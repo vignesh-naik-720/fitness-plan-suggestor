@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Powered Fitness App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Powered Fitness App</h1>
+        <div class="form">
+            <form id="fitness-form">
+                <div class="basic-data">
+                    <label for="name">Enter Your Name</label>
+                    <input type="text" id="name">
+                    <label for="age">Enter Your Age</label>
+                    <input type="number" id="age">
+                </div>
+                <label for="weight">Enter Your Weight (in kg)</label>
+                <input type="number" id="weight" required>
+                <label for="height">Enter Your Height (in cm)</label>
+                <input type="number" id="height" required>
+                <label for="activity">Select Your Activity Level</label>
+                <select id="activity">
+                    <option value="sedentary">Sedentary</option>
+                    <option value="lightly active">Lightly Active</option>
+                    <option value="moderately active">Moderately Active</option>
+                    <option value="very active">Very Active</option>
+                </select>
+                <button type="submit">Get AI Recommendations</button>
+            </form>
+        </div>
+        <div id="results"></div>
+    </div>
+    <div class="footer">
+        <p>Made by 720co</p>
+        <p>2025</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body{
+    background-color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+.container{
+    background-color: white;
+    max-width: 500px;
+    margin: 40px auto auto auto;
+    padding: 20px;
+    border-radius: 16px;
+    border-style: dashed;
+    box-shadow: 10px 20px 30px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+}
+label, input, button, select{
+    display: block;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 18px;
+    width: 90%;
+    text-align: center;
+}
+input, select{
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: brown;
+    border: 2px solid brown;
+}
+button:hover{
+    background-color: white;
+    color: brown;
+    cursor: pointer;
+}
+.footer{
+    background-color: brown;
+    color: white;
+    margin-top: 120px;
+    margin-left: 0;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 16px 16px 0 0;
+}
+.basic-data{
+    border-style: dashed;
+    border-radius: 16px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer p{
+    margin: 0;
+    padding-top: 10px;
+}
